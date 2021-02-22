@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('../fonts/NotoKufiArabic-Bold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+html, body {
+    direction: rtl;
+    font-family: 'MyWebFont', sans-serif;
+    text-align: right;
+    height: 2000px;
+
+
+
+
+
+
+    color: #000;
+    min-height: 100vh;
+}
+
+
+.navbar-nav {
+    margin-inline-end: 24px;
+    margin-inline-start: auto;
+    text-align: center
+}
+.navbar img {
+    margin-inline-end: auto;
+}
+#whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.box-hedar {
+    position: absolute;
+    width: 80%;
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%
+    }
+.box-hedar .text-hedar {
+    width: 50%;
+    float: left;
+}
+.text-hedar h2 {
+    font-size: 3em;
+    margin: 10px;
+
+}
+.text-hedar p {
+    font-size: 1.3em;
+    margin: 5px;
+}
+.box-hedar .image-hedar {
+    width: 50%;
+    float: left;
+}
+
+.box-service {
+
+
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow:
+    inset 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.box-service p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.box-service img {
+  max-width: 100%;
+}
+
+
+@media screen and (max-width: 400px) {
+    .box-hedar {
+        position: absolute;
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .box-hedar .image-hedar, .box-hedar .text-hedar  {
+        width: 100%;
+        float: left;
+    }
+  }
