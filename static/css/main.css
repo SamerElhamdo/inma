@@ -62,8 +62,8 @@ html, body {
 .box-service {
 
 
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     margin: auto;
     padding: 15px;
     margin-top: 50px;
@@ -83,7 +83,7 @@ html, body {
 }
 
 .box-service img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 
