@@ -85,7 +85,7 @@ canvas{
 #particles-js{
   width: 100%;
   height: calc(100vh - 64px);
-  max-height: 1calc(100vh - 64px);
+  max-height: calc(100vh - 64px);
   background-color: #00bcd4;
   background-image: url('');
   background-size: cover;
