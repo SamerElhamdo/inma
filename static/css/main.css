@@ -6,7 +6,6 @@ html, body {
     direction: rtl;
     font-family: 'MyWebFont', sans-serif;
     text-align: right;
-    height: 2000px;
 
 
 
@@ -25,12 +24,14 @@ html, body {
 }
 .navbar img {
     margin-inline-end: auto;
+    margin-right: 15px;
 }
 #whatsapp {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 25px;
+    right: 25px;
     z-index: 999;
+    box-shadow: 0px 0px 8px 0px #0c0c0c;
 }
 
 .box-hedar {
@@ -87,6 +88,61 @@ html, body {
 
 .box-service img {
   max-width: 90%;
+}
+
+.footer {
+    min-height: 200px;
+    background: #00bcd4;
+    margin-top: 50px;
+}
+.footer  h3 {
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+.footer .about-us p {
+    font-size: 20px;
+}
+.footer .soical-media p {
+    font-size: 20px;
+}
+.footer .soical-media .icons-soical span {
+    font-size: 3em;
+    margin: 20px;
+
+}
+.icons-soical span svg {
+    animation-name: roate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+
+
+
+@keyframes roate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+
+.created-by {
+    background: #2f2f2f;
+    position: relative;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.created-by p {
+    margin: 0;
+    padding:0;
+    color: #fff;
+
+}
+.created-by p a {
+    color: #ffa3a3;
 }
 
 
