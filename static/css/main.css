@@ -63,7 +63,7 @@ html, body {
     float: left;
 }
 
-.box-service {
+.box {
 
 
     width: 300px;
@@ -80,16 +80,54 @@ html, body {
     0 22.3px 17.9px rgba(0, 0, 0, 0.072),
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
 }
-.box-service p {
+.box p {
   margin: 20px 0;
   font-size: 18px;
 }
 
-.box-service img {
+.box img {
   max-width: 90%;
 }
 
+.box .detali  {
+    background: #03bbd3;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: -101%;
+    padding: 15px;
+    border-radius: 10px;
+    transition: .6s;
+}
+
+.box .detali p {
+    
+    font-size: 14px;
+}
+
+.box .detali span.close-btn  {
+
+
+    position: absolute;
+    left: 14px;
+    bottom: 14px;
+    font-size: 2em;
+    border: 3px solid;
+    padding: 0px 15px;
+    border-radius: 5px;
+    color: red
+    }
+.box .detali span.close-btn:hover {
+    cursor: pointer;
+}
+
+
+.box .active {
+    margin-left: 101%;
+}
 .footer {
     min-height: 200px;
     background: #00bcd4;
