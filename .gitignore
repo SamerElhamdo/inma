@@ -6,7 +6,7 @@ env/
 ssl/
 venv/
 photos/
-#secret_settings.py
+secret_settings.py
 
 #static/main/images/
 #static/store/images/
