@@ -1,4 +1,4 @@
-@font-face {
+a@font-face {
   font-family: 'MyWebFont';
   src: url('../fonts/NotoKufiArabic-Bold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
@@ -6,12 +6,6 @@ html, body {
     direction: rtl;
     font-family: 'MyWebFont', sans-serif;
     text-align: right;
-
-
-
-
-
-
     color: #000;
     min-height: 100vh;
 }
@@ -20,7 +14,7 @@ html, body {
 .navbar-nav {
     margin-inline-end: 24px;
     margin-inline-start: auto;
-    text-align: center
+    padding-inline-start: 15px;
 }
 .navbar img {
     margin-inline-end: auto;
@@ -189,6 +183,13 @@ h3{
     color: #ffa3a3;
 }
 
+/* disable anmation navbar on size  768px and up */
+@media screen and (min-width: 768px) {
+    .navbar .wow {
+        animation-name: none !important;
+        visibility: visible !important;
+    }
+}
 
 @media screen and (max-width: 400px) {
     .box-hedar {
@@ -202,5 +203,9 @@ h3{
     .box-hedar .image-hedar, .box-hedar .text-hedar  {
         width: 100%;
         float: left;
+    }
+    #navbarNav form button {
+        width: 100%
+
     }
   }
