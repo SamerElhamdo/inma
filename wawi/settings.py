@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 
 
-DEBUG = True
+DEBUG = False
 
 if DEBUG:
     from .secret_settings import secret_key
