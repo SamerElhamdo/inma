@@ -23,7 +23,7 @@ html, body {
 #whatsapp {
     position: fixed;
     bottom: 25px;
-    right: 25px;
+    left: 25px;
     z-index: 9999999;
     box-shadow: 0px 0px 8px 0px #0c0c0c;
 }

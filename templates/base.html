@@ -5,6 +5,9 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name = "Referer" content = "no-calling-when-downgrade">
+
+
         <link rel="stylesheet" href="{% static 'css/fontawesome-all.min.css' %}">
         <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
         <link rel="stylesheet" media="screen" href="{% static 'css/style.css' %}">
@@ -14,8 +17,11 @@
         <link rel="stylesheet" href="{% static 'css/main.css' %}">
 
 
+
     </head>
     <body>
+
+<!--End of Tawk.to Script-->
       <nav class="navbar navbar-expand-md navbar-light" style="background-color: #e3f2fd; z-index: 9;">
             <a class="navbar-brand" href="#"> شركة إنماء</a>
             <img src="{% static 'images/logo.png' %}" width="60" height="auto">
@@ -88,6 +94,7 @@
               <p> Designed by <a href="https://www.instagram.com/samer_elhamdo/">@SamerElhamdo</a></p>
             </div>
         </div>
+
         <script src="{% static 'js/jquery-3.1.1.min.js' %}"></script>
         <script src="{% static 'js/popper.min.js' %}"></script>
         <script src="{% static 'js/bootstrap.min.js' %}"></script>
@@ -98,31 +105,18 @@
         {% endblock  %}
 
         <script src="{% static 'js/main.js' %}"></script>
-            <script src="{% static 'js/wow.min.js' %}"></script>
+        <script src="{% static 'js/wow.min.js' %}"></script>
+
         <script>
             new WOW().init();
         </script>
-<!--         <script src="https://www.momentcrm.com/embed"></script>
-        <script>
-          MomentCRM('init', {
-            'teamId': 'pubg_girl_ar',
-            'doChat': true,
-            'doTracking': true,
-          });
-        </script> -->
-        <!--Start of Tawk.to Script-->
-        <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/60a8f89ba4114e480ad04c43/1f6a0m8ad';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-        })();
+        <script type='text/javascript'>
+            (function() {
+            var s = document.createElement('script');s.type='text/javascript';s.async=true;s.id='lsInitScript';
+            s.src='https://livesupporti.com/Scripts/clientAsync.js?acc=85a82b25-0648-455f-a043-01701257ab1d&skin=Air';
+            var scr=document.getElementsByTagName('script')[0];scr.parentNode.appendChild(s, scr);
+            })();
         </script>
-<!--End of Tawk.to Script-->
     </body>
 
 </html>
