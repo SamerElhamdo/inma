@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'wawi.urls'
+ROOT_URLCONF = 'inma.urls'
 
 TEMPLATES = [
     {
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'wawi.wsgi.application'
+WSGI_APPLICATION = 'inma.wsgi.application'
 
 
 # Database
