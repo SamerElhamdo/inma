@@ -1,1 +1,1 @@
-web: gunicorn wawi.wsgi --log-file -
+web: gunicorn inma.wsgi --log-file -
